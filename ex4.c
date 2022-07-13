@@ -3,7 +3,16 @@
 #include<time.h>
 
 int main(){
-   printf("Tossing a coin...\n");
+
+   char name[100];
+   
+  printf("Who are you?\n");
+  
+  scanf("%s",name);
+
+  printf("Hello, %s!\n",name);
+  
+  printf("Tossing a coin...\n");
 
   int i,j;
   int k=0;
